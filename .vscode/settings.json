@@ -1,5 +1,8 @@
 {
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
-    "python.linting.mypyEnabled": true
+    "python.linting.mypyEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.pythonPath": "env/educa/bin/python3",
+    "python.linting.banditEnabled": true
 }

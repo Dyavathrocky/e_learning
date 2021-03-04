@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Sign UP
+{% endblock title %}
+
+{% block content %}
+  <h1>
+      Sign Up
+  </h1>
+  <div class="module">
+    <p>Enter the info for create account in Rakesh education platform</p>
+    <form method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="Create my account"></p>
+    </form>
+  </div>
+{% endblock content %}
